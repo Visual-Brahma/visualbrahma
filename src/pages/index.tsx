@@ -14,7 +14,7 @@ const Home = () => {
           Get Ready for Something Big: Coming Soon
         </h1>
 
-        <div className='flex flex-col sm:flex-row justify-between space-y-4 items-center sm:space-x-4 sm:space-y-0 mt-12'>
+        <div className='flex flex-col sm:flex-row justify-between space-y-4 items-center sm:space-x-4 sm:space-y-0 mt-12 p-4'>
           <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
             <div className='p-8'>
               <h5 className='text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-black dark:text-white text-left mb-8 max-w-screen-md'>
