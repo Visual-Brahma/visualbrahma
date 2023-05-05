@@ -5,7 +5,7 @@ const Home = () => {
   const router = useRouter()
   return (
     <Layout>
-      <div className={'flex flex-col items-center justify-center min-h-screen'}>
+      <div className={'flex flex-col items-center justify-center min-h-screen mt-20'}>
         <h1
           className={
             'text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-black dark:text-white text-center mb-8 max-w-screen-md'
@@ -14,7 +14,7 @@ const Home = () => {
           Get Ready for Something Big: Coming Soon
         </h1>
 
-        <div className='flex flex-col sm:flex-row justify-between space-y-4 items-center sm:space-x-4 sm:space-y-0 mt-12 p-4'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-8 sm:p-24'>
           <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
             <div className='p-8'>
               <h5 className='text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-black dark:text-white text-left mb-8 max-w-screen-md'>
@@ -50,6 +50,25 @@ const Home = () => {
                 rel='noopener noreferrer'
               >
                 Chat with Arjun
+              </a>
+            </div>
+          </div>
+          <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
+            <div className='p-8'>
+              <h5 className='text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-black dark:text-white text-left mb-8 max-w-screen-md'>
+                DevBoard Community
+              </h5>
+              <p className='text-lg sm:text-xl md:text-2xl text-gray-500 dark:text-gray-400 mb-12 text-left max-w-screen-md dark:text-white-200'>
+                DevBoard is a vibrant community of developers where you can
+                connect, learn, and collaborate on innovative projects.
+              </p>
+              <a
+                className='button-large'
+                href='https://devboard.visualbrahma.tech'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Join DevBoard
               </a>
             </div>
           </div>
