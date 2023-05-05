@@ -47,7 +47,7 @@ const Layout: FC<CustomComponentProps> = ({ children }) => {
         <div className='mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto'>
           <Link className='flex items-center font-display text-2xl' href='/'>
             <Image
-              alt='Trackit logo'
+              alt='Visual Brahma logo'
               src='/logo.png'
               className='mr-2 rounded-lg'
               height={45}
