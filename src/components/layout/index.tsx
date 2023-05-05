@@ -49,7 +49,7 @@ const Layout: FC<CustomComponentProps> = ({ children }) => {
             <Image
               alt='Trackit logo'
               src='/logo.png'
-              className='mr-2 rounded-sm'
+              className='mr-2 rounded-lg'
               height={45}
               width={45}
               loading='lazy'
