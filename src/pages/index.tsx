@@ -43,14 +43,12 @@ const Home = () => {
                 Manage your schedule from WhatsApp while chatting with Arjun.
                 Use the full power of ChatGPT on WhatsApp.
               </p>
-              <a
+              <button
                 className='button-large'
-                href='https://arjun.visualbrahma.tech'
-                target='_blank'
-                rel='noopener noreferrer'
+                onClick={()=>window.open('https://arjun.visualbrahma.tech', '_blank', 'noopener noreferrer')}
               >
                 Chat with Arjun
-              </a>
+              </button>
             </div>
           </div>
           <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
@@ -62,14 +60,12 @@ const Home = () => {
                 DevBoard is a vibrant community of developers where you can
                 connect, learn, and collaborate on innovative projects.
               </p>
-              <a
+              <button
                 className='button-large'
-                href='https://devboard.visualbrahma.tech'
-                target='_blank'
-                rel='noopener noreferrer'
+                onClick={()=>window.open('https://devboard.visualbrahma.tech', '_blank', 'noopener noreferrer')}
               >
                 Join DevBoard
-              </a>
+              </button>
             </div>
           </div>
         </div>
