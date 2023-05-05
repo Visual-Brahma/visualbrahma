@@ -26,7 +26,7 @@ const Home = () => {
               </p>
               <button
                 className='button-large'
-                onClick={()=>window.open('https://trackit.zeabur.app', '_blank', 'noopener noreferrer')}
+                onClick={()=>window.open('https://trackit.zeabur.app', '_blank', 'noopener,noreferrer')}
               >
                 Try Trackit
               </button>
@@ -43,7 +43,7 @@ const Home = () => {
               </p>
               <button
                 className='button-large'
-                onClick={()=>window.open('https://arjun.visualbrahma.tech', '_blank', 'noopener noreferrer')}
+                onClick={()=>window.open('https://arjun.visualbrahma.tech', '_blank', 'noopener,noreferrer')}
               >
                 Chat with Arjun
               </button>
@@ -60,7 +60,7 @@ const Home = () => {
               </p>
               <button
                 className='button-large'
-                onClick={()=>window.open('https://devboard.visualbrahma.tech', '_blank', 'noopener noreferrer')}
+                onClick={()=>window.open('https://devboard.visualbrahma.tech', '_blank', 'noopener,noreferrer')}
               >
                 Join DevBoard
               </button>
