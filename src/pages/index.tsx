@@ -24,14 +24,12 @@ const Home = () => {
                 Automatically track attendance for your Google Meet meetings and
                 get detailed reports on who attended and how much.
               </p>
-              <a
+              <button
                 className='button-large'
-                href='https://trackit.zeabur.app'
-                target='_blank'
-                rel='noopener noreferrer'
+                onClick={()=>window.open('https://trackit.zeabur.app', '_blank', 'noopener noreferrer')}
               >
                 Try Trackit
-              </a>
+              </button>
             </div>
           </div>
           <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
