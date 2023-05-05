@@ -5,13 +5,13 @@ const Home = () => {
   const router = useRouter()
   return (
     <Layout>
-      <div className={'flex flex-col items-center justify-center h-screen'}>
+      <div className={'flex flex-col items-center justify-center min-h-screen'}>
         <h1
           className={
             'text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-black dark:text-white text-center mb-8 max-w-screen-md'
           }
         >
-          Simplfying your life
+          Get Ready for Something Big: Coming Soon
         </h1>
 
         <div className='flex flex-col sm:flex-row justify-between space-y-4 items-center sm:space-x-4 sm:space-y-0 mt-12'>
