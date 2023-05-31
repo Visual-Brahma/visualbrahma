@@ -36,6 +36,7 @@ const Layout: FC<CustomComponentProps> = ({ children }) => {
           name='description'
           content='Visual Brahma - Stealth Mode. Coming Soon.'
         />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <div
         className={`fixed top-0 w-full ${
