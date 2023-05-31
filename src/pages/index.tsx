@@ -66,7 +66,7 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
+          {/* <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
             <div className='p-8'>
               <h5 className='text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-black dark:text-white text-left mb-8 max-w-screen-md'>
                 VisualAI
@@ -82,7 +82,7 @@ const Home = () => {
                 Watch now
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>
