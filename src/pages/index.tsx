@@ -73,7 +73,7 @@ const Home = () => {
               </h5>
               <p className='text-lg sm:text-xl md:text-2xl text-gray-500 dark:text-gray-400 mb-12 text-left max-w-screen-md dark:text-white-200'>
                 We are running an experiment to utilize the creative abilities of AI.
-                Let's explore together the future of content creation with AI.
+                Let&apos;s explore together the future of content creation with AI.
               </p>
               <button
                 className='button-large'
