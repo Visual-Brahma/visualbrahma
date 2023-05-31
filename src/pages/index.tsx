@@ -66,6 +66,23 @@ const Home = () => {
               </button>
             </div>
           </div>
+          <div className='rounded-lg bg-gray-200 border-gray-400 border-2 dark:bg-dark-gray drop-shadow-2xl hover:drop-shadow-lg max-w-screen-sm'>
+            <div className='p-8'>
+              <h5 className='text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-black dark:text-white text-left mb-8 max-w-screen-md'>
+                VisualAI
+              </h5>
+              <p className='text-lg sm:text-xl md:text-2xl text-gray-500 dark:text-gray-400 mb-12 text-left max-w-screen-md dark:text-white-200'>
+                We are running an experiment to utilize the creative abilities of AI.
+                Let's explore together the future of content creation with AI.
+              </p>
+              <button
+                className='button-large'
+                onClick={()=>window.open('https://www.youtube.com/@visualai', '_blank', 'noopener,noreferrer')}
+              >
+                Watch now
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
