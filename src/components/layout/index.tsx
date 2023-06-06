@@ -41,7 +41,7 @@ const Layout: FC<CustomComponentProps> = ({ children }) => {
         <meta property="og:image" content="/logo.png" />
         <meta property="og:url" content="https://www.visualbrahma.tech" />
         <meta property="og:description" content="Visual Brahma - Stealth Mode. We are building something great for you. Till then try our existing services - Trackit attendance tracker and Arjun WhatsApp chatbot." />
-        <meta name="theme-color" content="#6B13FA">
+        <meta name="theme-color" content="#6B13FA" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/logo.png" />
         <link rel="canonical" href="https://www.visualbrahma.tech" />
