@@ -48,7 +48,7 @@ const Layout: FC<CustomComponentProps> = ({ children }) => {
       </Head>
       <div
         className={`fixed top-0 w-full ${isScrolled
-          ? 'border-b border-black-100 bg-white/50 backdrop-blur-xl dark:bg-black/50'
+          ? 'border-b border-black-100 bg-white/50 dark:bg-black/50'
           : 'bg-white/0'} z-30 transition-all`}
       >
         <div className='mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto'>
