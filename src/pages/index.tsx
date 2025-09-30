@@ -27,7 +27,7 @@ const Home = () => {
               <button
                 className='button-large'
                 aria-label='Try-Trackit'
-                onClick={()=>window.open('https://trackit.zeabur.app', '_blank', 'noopener,noreferrer')}
+                onClick={()=>window.open('https://trackit.visualbrahma.tech', '_blank', 'noopener,noreferrer')}
               >
                 Try Trackit
               </button>
