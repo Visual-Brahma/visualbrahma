@@ -11,7 +11,7 @@ const Home = () => {
             'text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-black dark:text-white text-center mb-8 max-w-screen-md'
           }
         >
-          Get Ready for Something Big: Coming Soon
+          Exploring Possibilities
         </h1>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-8 sm:p-24'>
